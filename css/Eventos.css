@@ -1,0 +1,52 @@
+body{
+    background-color: liner-gradiant();
+    align-items: center;
+}
+*{
+    padding: 5px;
+}
+h1{
+    float: left;
+    font-size: 16px;
+}
+.cont{
+    background-color: rgb(220, 223, 255);
+    width: 500px;
+    display: inline-block;
+  
+    align-items: center;
+    list-style: none;
+
+}
+.cont2{
+    background-color: rgb(85, 77, 236);
+    width: 500px;
+    display: inline-block;
+  
+    align-items: center;
+    list-style: none;
+
+}
+
+.todo{
+    width: 500px;
+    
+    
+}
+button{
+    float: right;
+    width: auto;
+    height: 50px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+input{
+    float: right;
+
+}
+.scr{
+    float: right;
+    overflow: scroll;
+    width: 120px;
+    height: 80px;
+}
